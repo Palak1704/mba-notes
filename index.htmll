@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MBA Notes Hub</title>
+<style>
+body{font-family:Arial, sans-serif;margin:0;background:#f4f6fb}
+header{background:#2b3a67;color:white;padding:20px;text-align:center}
+nav{background:#1f2a4a;padding:10px;text-align:center}
+nav a{color:white;margin:0 15px;text-decoration:none;font-weight:bold}
+.container{width:90%;max-width:1000px;margin:auto;padding:20px}
+.card{background:white;padding:20px;margin:15px 0;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1)}
+footer{background:#1f2a4a;color:white;text-align:center;padding:15px;margin-top:30px}
+.button{display:inline-block;background:#2b3a67;color:white;padding:10px 15px;border-radius:6px;text-decoration:none;margin-top:10px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>MBA Notes Hub</h1>
+<p>Simple Notes for MBA Students</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#notes">MBA Notes</a>
+<a href="#download">Download PDFs</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="notes">
+<h2>Financial Management Notes</h2>
+<p>Learn the basics of financial management including meaning, objectives, functions and sources of finance in simple words.</p>
+<a class="button" href="#">Read Notes</a>
+</div>
+
+<div class="card">
+<h2>Business Ethics Notes</h2>
+<p>Simple explanations of Indian ethos, ethics in management, and corporate responsibility with examples.</p>
+<a class="button" href="#">Read Notes</a>
+</div>
+
+<div class="card">
+<h2>Statistics for MBA</h2>
+<p>Understand statistics concepts like mean, median, mode, and business statistics with easy examples.</p>
+<a class="button" href="#">Read Notes</a>
+</div>
+
+<div class="card" id="download">
+<h2>Download Notes PDF</h2>
+<p>You can upload your own PDF notes here for students to download.</p>
+<a class="button" href="#">Download Sample PDF</a>
+</div>
+
+<div class="card" id="contact">
+<h2>Contact</h2>
+<p>Email: yourname@email.com</p>
+<p>Instagram: @yourpage</p>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 MBA Notes Hub | Made for Students</p>
+</footer>
+
+</body>
+</html>
